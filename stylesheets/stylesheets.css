@@ -1,10 +1,18 @@
 body {
 	color: white;
+	font-size: medium;
 	background-color: rgb(35, 40, 68);
 }
 
 div#header {
 	width: 100%;
+}
+
+div.title_logo {
+	width: 512px;
+	height: 256px;
+	background-image: url("../images/meteor_swarm_logo.png");
+	margin: auto;
 }
 
 div#page {
@@ -13,10 +21,15 @@ div#page {
 
 div#sidebar {
 	background-color: rgba(255, 255, 255, 0.1);
+	margin-right: 0;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	font-size: xx-large;
 }
 
 div#content {
 	background-color: rgba(255, 255, 255, 0.05);
+	padding: 0.5em 0.3em;
 }
 
 div#footer {
@@ -25,10 +38,10 @@ div#footer {
 }
 
 ul.navigation {
+	margin-right: 0.5em;
 	list-style-type: none;
-}
-
-ul.navigation li {
+	text-align: right;
+	float:right;
 }
 
 a {
