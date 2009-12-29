@@ -1,0 +1,44 @@
+body {
+	color: white;
+	background-color: rgb(35, 40, 68);
+}
+
+div#header {
+	width: 100%;
+}
+
+div#page {
+	margin: 2em auto;
+}
+
+div#sidebar {
+	background-color: rgba(255, 255, 255, 0.1);
+}
+
+div#content {
+	background-color: rgba(255, 255, 255, 0.05);
+}
+
+div#footer {
+	clear:both;
+	text-align: right;
+}
+
+ul.navigation {
+	list-style-type: none;
+}
+
+ul.navigation li {
+}
+
+a {
+	text-decoration: none;
+	-webkit-transition-property: color;
+	-webkit-transition-duration: 0.3s;
+	color: white;
+}
+
+a:hover {
+	text-shadow: #888 0px 0px 15px;
+	color: #AAA;
+}
