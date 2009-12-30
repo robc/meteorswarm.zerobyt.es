@@ -1,7 +1,7 @@
 body {
 	color: white;
 	font-size: medium;
-	background-color: rgb(35, 40, 68);
+	background-color: rgb(50, 59, 90);
 }
 
 h3 {
@@ -37,7 +37,7 @@ div#sidebar {
 }
 
 div#content {
-	padding: 0.5em 0.3em;
+	padding: 1em 0.3em;
 }
 
 div#footer {
