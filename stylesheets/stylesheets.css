@@ -86,8 +86,3 @@ a:hover {
 	text-shadow: rgb(255, 255, 0) 0px 0px 15px;
 	color: rgb(255, 255, 0);
 }
-
-.centered {
-	margin-left: auto;
-	margin-right: auto;
-}
