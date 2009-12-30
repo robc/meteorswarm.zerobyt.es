@@ -56,6 +56,10 @@ div#content {
 div#footer {
 	clear: both;
 	text-align: right;
+	padding: 1em;
+	background-color: rgba(0, 0, 0, 0.1);
+	background-image: -webkit-gradient(linear, 0% 20%, 0% 85%, from(#323B5A), to(#4F5E8F), color-stop(.5,#3F4B73));
+	background-image: -moz-linear-gradient(0% 20% 270deg,#323B5A, #4F5E8F, #3F4B73 85%);
 }
 
 div#trailer {
