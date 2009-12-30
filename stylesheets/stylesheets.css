@@ -17,18 +17,18 @@ div.title_logo {
 
 div#page {
 	margin: 2em auto;
+	background-color: rgba(0, 0, 0, 0.1);
 }
 
 div#sidebar {
-	background-color: rgba(255, 255, 255, 0.1);
 	margin-right: 0;
 	padding-top: 0.5em;
 	padding-bottom: 0.5em;
 	font-size: xx-large;
+	font-variant: small-caps;
 }
 
 div#content {
-	background-color: rgba(255, 255, 255, 0.05);
 	padding: 0.5em 0.3em;
 }
 
