@@ -54,7 +54,7 @@ div#content {
 }
 
 div#footer {
-	clear:both;
+	clear: both;
 	text-align: right;
 }
 
@@ -72,13 +72,12 @@ ul.navigation {
 
 ul#screenshots {
 	margin-top: 0.5em;
-	margin-bottom: 2em;
-	padding-bottom: 2em; 
-	padding-left: 1.8em;
+	padding-left: 1.5em;
 }
 
 ul#screenshots li {
-	padding: 0 0 2em 0;
+	padding: 0;
+	padding-bottom: 2em;
 	display: inline;
 	list-style-type: none;
 	float: left;
