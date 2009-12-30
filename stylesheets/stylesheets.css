@@ -4,6 +4,14 @@ body {
 	background-color: rgb(35, 40, 68);
 }
 
+h3 {
+	color: white;
+	font-size: x-large;
+	font-weight: bold;
+	text-shadow: 3px 3px 0px #111;
+	margin-bottom: 0.2em;
+}
+
 div#header {
 	width: 100%;
 }
@@ -37,11 +45,25 @@ div#footer {
 	text-align: right;
 }
 
+div#trailer {
+	width: 600px;
+}
+
 ul.navigation {
 	margin-right: 0.5em;
 	list-style-type: none;
 	text-align: right;
 	float:right;
+}
+
+ul#screenshots {
+	margin: 0.5em auto;
+	width: 500px;
+}
+
+ul#screenshots li {
+	display: inline;
+	list-style-type: none;
 }
 
 a {
@@ -52,6 +74,11 @@ a {
 }
 
 a:hover {
-	text-shadow: #888 0px 0px 15px;
-	color: #AAA;
+	text-shadow: rgb(255, 255, 0) 0px 0px 15px;
+	color: rgb(255, 255, 0);
+}
+
+.centered {
+	margin-left: auto;
+	margin-right: auto;
 }
